@@ -1,14 +1,14 @@
 # POST-TEST-2-SEARCHING
 PROGRAM SEARCHING MENGGUNAKAN ALGORITMA BINARY SEARCH DAN FIBBONACCI SEARCH
 
-Pada program BINARY SEARCH ini memiliki fungsi untuk mencari indeks dari nilai dalam sebuah list menggunakan algoritma binary search. Program ini juga memiliki loop yang menggunakan fungsi binary search untuk mencari setiap nilai yang ada dalam list "nama" pada list "var".
+1. Pada program BINARY SEARCH ini memiliki fungsi untuk mencari indeks dari nilai dalam sebuah list menggunakan algoritma binary search. Program ini juga memiliki loop yang menggunakan fungsi binary search untuk mencari setiap nilai yang ada dalam list "nama" pada list "var".
 
 Pada baris 1, list "var" diinisialisasi dengan beberapa nilai yang akan dicari. Kemudian pada baris 3-26, terdapat fungsi "binary_search" yang menggunakan algoritma binary search untuk mencari indeks dari nilai dalam list "var". Fungsi ini menggunakan variabel "left" dan "right" untuk menentukan range pencarian pada setiap iterasi. Kemudian pada setiap iterasi, fungsi ini menghitung nilai tengah (mid) dari range tersebut dan membandingkan nilai name dengan nilai pada indeks mid dari list "var". Jika nilai pada indeks mid adalah sebuah list, fungsi akan memeriksa apakah nilai name lebih besar atau lebih kecil dari nilai pada indeks pertama atau terakhir pada list tersebut. Jika nilai name ditemukan pada list, fungsi akan mengembalikan indeks menggunakan rumus mid * len(var) + i, dimana i adalah indeks pada list tersebut. Jika nilai pada indeks mid bukan sebuah list, fungsi akan membandingkan nilai name dengan nilai pada indeks mid tersebut. Jika nilai name ditemukan pada list, fungsi akan mengembalikan nilai indeks mid.
 
 Pada baris 29, list "nama" diinisialisasi dengan beberapa nilai yang akan dicari pada list "var". Kemudian pada baris 31-40, terdapat loop for yang menggunakan fungsi "binary_search" untuk mencari indeks dari setiap nilai yang ada dalam list "nama". Jika indeks ditemukan, program akan mencari baris dan kolom dari nilai tersebut menggunakan rumus index // len(var) dan index % len(var[i]). Kemudian program akan mencetak informasi mengenai indeks, baris, dan kolom dari nilai tersebut. Jika nilai pada indeks i adalah sebuah list, program akan mencetak informasi mengenai kolom tempat nilai tersebut ditemukan. Jika nilai pada indeks i bukan sebuah list, program akan mencetak informasi mengenai indeks tempat nilai tersebut ditemukan.
 
 
-Pada program FIBBONACCI SEARCH ini adalah implementasi dari algoritma Fibonacci Search untuk mencari indeks dari setiap elemen dalam list var.
+2. Pada program FIBBONACCI SEARCH ini adalah implementasi dari algoritma Fibonacci Search untuk mencari indeks dari setiap elemen dalam list var.
 
 Pertama-tama, variabel n diinisialisasi dengan panjang list var. Kemudian, dilakukan perhitungan nilai awal untuk algoritma Fibonacci Search. Dalam algoritma ini, nilai awal untuk fib2 dan fib1 adalah 0 dan 1, sementara nilai awal untuk fibn adalah fib1 + fib2. Kemudian, dilakukan perulangan while untuk mencari bagian dari list yang mengandung elemen yang dicari. Perulangan tersebut berlangsung selama nilai fibn lebih kecil dari n. Pada setiap iterasi, nilai fib2 dan fib1 diupdate menjadi fib1 dan fibn, sementara nilai fibn diupdate menjadi fib1 + fib2.
 
